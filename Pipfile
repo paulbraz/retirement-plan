@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pyyaml = "*"
+scipy = "*"
+strenum = "*"
+pandas = "*"
+openpyxl = "*"
+sqlalchemy = "*"
+
+[dev-packages]
+jupyter = "*"
+notebook = "*"
+
+[requires]
+python_version = "3.13"
